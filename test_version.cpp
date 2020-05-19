@@ -7,7 +7,7 @@ BOOST_AUTO_TEST_SUITE(helloworld_test_module)
 
 BOOST_AUTO_TEST_CASE(helloworld_test_module)
 {
-	BOOST_CHECK(version() > 0)
+	BOOST_CHECK(version() > 0);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
